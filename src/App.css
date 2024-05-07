@@ -1,0 +1,57 @@
+.container {
+  width: 700px;
+  height: 700px;
+  border: solid 1px black;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #212121;
+
+}
+
+.header {
+  width: 700px;
+  height: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+
+}
+
+.cell {
+  width: 140px;
+  height: 140px;
+  border: solid 3px black;
+  box-sizing: border-box;
+  color: white;
+
+}
+
+.cell input {
+  width: 140px;
+  height: 140px;
+  box-sizing: border-box;
+  background-color: #212121;
+  border: solid 2px black;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.correct {
+  background-color: green !important;
+}
+.warning {
+  background-color: orange !important;
+}
+
+
+.disable {
+  background-color: #f4f4f4 !important;
+  color: #aaa !important;
+  cursor: not-allowed !important;
+}
